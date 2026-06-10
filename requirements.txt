@@ -1,0 +1,42 @@
+# ======================================================
+# Product Recommendation System — Python Dependencies
+# Python >= 3.9 recommended
+# Install: pip install -r requirements.txt
+# ======================================================
+
+# --------------------------
+# Core data manipulation
+# --------------------------
+pandas>=2.0.0
+numpy>=1.24.0
+
+# --------------------------
+# Sparse matrix & hierarchical clustering support
+# --------------------------
+scipy>=1.11.0
+
+# --------------------------
+# Machine learning — clustering, preprocessing, evaluation
+# Used in: 2_Modelling_and_Recommendation.ipynb
+# --------------------------
+scikit-learn>=1.3.0
+
+# --------------------------
+# Visualisation
+# Used in: 1_EDA_and_Visualization.ipynb, 2_Modelling_and_Recommendation.ipynb
+# --------------------------
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# --------------------------
+# Streamlit web application
+# Used in: 3_Deployment/app.py (combo)
+# --------------------------
+streamlit>=1.32.0
+
+# --------------------------
+# Jupyter notebook environment
+# Required to run .ipynb notebooks locally
+# --------------------------
+notebook>=7.0.0
+ipykernel>=6.25.0
